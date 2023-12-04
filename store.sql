@@ -39,6 +39,8 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`ID`, `username`, `password`) VALUES
 (10, '0972419710', 'freenbecky');
+INSERT INTO `users` (`ID`, `username`, `password`) VALUES
+(20, 'JohnDoe@gmail.com', 'JohnDoe123');
 
 --
 -- Indexes for dumped tables
